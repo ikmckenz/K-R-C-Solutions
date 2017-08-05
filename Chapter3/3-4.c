@@ -29,6 +29,7 @@ void itoa(int n, char s[])
   int i, original;
   original = n;
 
+  i = 0;
   if (original < 0) {
     do {
       s[i++] = abs(n % 10) + '0';
