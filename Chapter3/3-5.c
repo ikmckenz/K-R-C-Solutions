@@ -16,6 +16,8 @@ main()
   itob(105,s,16);
 
   printf("%s\n", s);
+
+  return 0;
 }
 
 
