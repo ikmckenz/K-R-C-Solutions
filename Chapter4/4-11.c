@@ -5,7 +5,6 @@
 
 #define MAXOP 100
 #define NUMBER '0'
-#define BUFSIZE 100
 
 int getop(char []);
 int getch(int);
